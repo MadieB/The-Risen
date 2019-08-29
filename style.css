@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: darkred;
+    margin: 20;
+    text-align: center;
+    font-family:cursive;
+}
+
+header{
+    font-size: 40px;
+}
+
+section{
+    display: flex;
+    flex-direction: row
+}
+nav, article{
+    width: 100%;
+    padding: 15x;
+}
+header, footer{
+    color: darkred;
+    padding: 15px;
+}
+nav{
+    flex: 20%;
+}
+
+nav a {
+    display: block;
+}
+
+div.info{
+    color:white;
+}
+
+div.character{
+    text-align: left;
+    margin right: 20px;
+}
+
+article{
+    color: crimson;
+}
+
+@media screen and max-width:600px{
+    section{
+        flex-direction: column;
+    }
+}
